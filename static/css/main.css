@@ -30,7 +30,6 @@ body{
 .text-pattern{
     color:white;
     font-size:3vw;
-    text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
 }
 .description{
     left:10%;
@@ -72,6 +71,9 @@ body{
 }
 .patternoverride{
     flex-flow:column wrap !important;
+}
+.shadow{
+    text-shadow:4px 4px 4px rgba(0,0,0,0.5);
 }
 .sized{
     width:80%;
